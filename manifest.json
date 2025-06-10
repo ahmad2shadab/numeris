@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Numeris",
+  "version": "1.0",
+  "description": "Displays tab numbers in tab titles for easier switching.",
+  "permissions": ["tabs", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Numeris - Tab Number Overlay"
+  },
+  "host_permissions": ["<all_urls>"]
+}
